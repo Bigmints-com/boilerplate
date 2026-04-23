@@ -1,0 +1,12 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Tool testing & dynamic artifacts
+test_orchestrator.txt
+hello_world.py
+
+# Minions specific ignored directories
+.agents
+.pi-lens
