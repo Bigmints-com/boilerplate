@@ -1,0 +1,18 @@
+# pi — Example Prompt Queue
+# Run with: pi --queue example-queue.yaml --workdir /path/to/project
+
+queue:
+  - name: "Analyze project structure"
+    prompt: "List all source files and explain the project architecture. Focus on the main entry points, key modules, and how they connect."
+
+  - name: "Fix lint errors"
+    prompt: "Run the linter and fix all reported errors. Show me a summary of what was fixed."
+
+  - name: "Write unit tests"
+    prompt: "Identify all functions in src/ that lack unit tests and write comprehensive tests for them."
+
+  - name: "Update documentation"
+    prompt: "Update the README.md to accurately reflect the current project structure, setup instructions, and available commands."
+
+  - name: "Security audit"
+    prompt: "Review the codebase for common security vulnerabilities (injection, hardcoded secrets, unsafe dependencies) and fix any issues found."
